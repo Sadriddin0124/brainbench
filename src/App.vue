@@ -1,7 +1,7 @@
 <template>
   <div>
     <Auth v-if="!store.name"/>
-    <Navbar/>
+    <Navbar v-if="store.name"/>
     <router-view></router-view>
   </div>
 </template>
