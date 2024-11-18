@@ -5,6 +5,9 @@ import SectionsView from '@/views/SectionsView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import JavascriptView from '@/views/Coding/JavascriptView.vue'
 import IrregularView from '@/views/English/IrregularView.vue'
+import PastTenseView from '@/views/English/PastTenseView.vue'
+import PresentView from '@/views/English/PresentView.vue'
+import FutureView from '@/views/English/FutureView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +41,21 @@ const router = createRouter({
       path: "/irregular",
       name: "Irregular",
       component: IrregularView
+    },
+    {
+      path: "/past",
+      name: "Past",
+      component: PastTenseView
+    },
+    {
+      path: "/present",
+      name: "Present",
+      component: PresentView
+    },
+    {
+      path: "/future",
+      name: "Future",
+      component: FutureView
     },
   ]
 })

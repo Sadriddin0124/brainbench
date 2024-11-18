@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Auth v-if="!store.name"/>
-    <Navbar v-if="store.name"/>
+    <AuthComponent v-if="!store.name"/>
+    <NavbarComponent v-if="store.name"/>
     <router-view></router-view>
   </div>
 </template>
 
 <script setup>
-import Auth from './components/Auth.vue';
-import Navbar from './components/Navbar.vue';
+import AuthComponent from './components/AuthComponent.vue';
+import NavbarComponent from './components/NavbarComponent.vue';
 import { useExaminerStore } from './stores/store';
 const store = useExaminerStore()
 store.getName()

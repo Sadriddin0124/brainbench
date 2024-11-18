@@ -182,7 +182,7 @@ const questions = [
     "answers": [
         { "text": "finding", "correct": false },
       { "text": "found", "correct": true },
-      { "text": "found", "correct": false },
+      { "text": "founded", "correct": false },
       { "text": "finds", "correct": false },
     ]
   },
@@ -355,6 +355,276 @@ const questions = [
         { "text": "grown", "correct": true },
       { "text": "grew", "correct": false },
       { "text": "grows", "correct": false },
+    ]
+  },
+  {
+    "question": "What is the past tense of 'be'?",
+    "answers": [
+      { "text": "been", "correct": false },
+      { "text": "be", "correct": false },
+      { "text": "was/were", "correct": true },
+      { "text": "being", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'go'?",
+    "answers": [
+      { "text": "gone", "correct": false },
+      { "text": "went", "correct": true },
+      { "text": "goed", "correct": false },
+      { "text": "going", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'have'?",
+    "answers": [
+      { "text": "had", "correct": true },
+      { "text": "has", "correct": false },
+      { "text": "haved", "correct": false },
+      { "text": "having", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'take'?",
+    "answers": [
+      { "text": "taked", "correct": false },
+      { "text": "taken", "correct": false },
+      { "text": "took", "correct": true },
+      { "text": "taking", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'see'?",
+    "answers": [
+      { "text": "seeing", "correct": false },
+      { "text": "saw", "correct": true },
+      { "text": "seen", "correct": false },
+      { "text": "see", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'make'?",
+    "answers": [
+      { "text": "made", "correct": false },
+      { "text": "making", "correct": false },
+      { "text": "maked", "correct": false },
+      { "text": "made", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'know'?",
+    "answers": [
+      { "text": "knew", "correct": false },
+      { "text": "know", "correct": false },
+      { "text": "knowing", "correct": false },
+      { "text": "known", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'eat'?",
+    "answers": [
+      { "text": "eaten", "correct": false },
+      { "text": "ate", "correct": true },
+      { "text": "eated", "correct": false },
+      { "text": "eating", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'come'?",
+    "answers": [
+      { "text": "comed", "correct": false },
+      { "text": "come", "correct": true },
+      { "text": "coming", "correct": false },
+      { "text": "came", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'drink'?",
+    "answers": [
+      { "text": "drinking", "correct": false },
+      { "text": "drunk", "correct": true },
+      { "text": "drink", "correct": false },
+      { "text": "drank", "correct": false }
+    ]
+  }, 
+  {
+    "question": "What is the past tense of 'be'?",
+    "answers": [
+      { "text": "been", "correct": false },
+      { "text": "be", "correct": false },
+      { "text": "was/were", "correct": true },
+      { "text": "being", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'go'?",
+    "answers": [
+      { "text": "gone", "correct": false },
+      { "text": "went", "correct": true },
+      { "text": "goed", "correct": false },
+      { "text": "going", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'have'?",
+    "answers": [
+      { "text": "had", "correct": true },
+      { "text": "has", "correct": false },
+      { "text": "haved", "correct": false },
+      { "text": "having", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'take'?",
+    "answers": [
+      { "text": "taked", "correct": false },
+      { "text": "taken", "correct": false },
+      { "text": "took", "correct": true },
+      { "text": "taking", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'see'?",
+    "answers": [
+      { "text": "seeing", "correct": false },
+      { "text": "saw", "correct": true },
+      { "text": "seen", "correct": false },
+      { "text": "see", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'make'?",
+    "answers": [
+      { "text": "made", "correct": false },
+      { "text": "making", "correct": false },
+      { "text": "maked", "correct": false },
+      { "text": "made", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'know'?",
+    "answers": [
+      { "text": "knew", "correct": false },
+      { "text": "know", "correct": false },
+      { "text": "knowing", "correct": false },
+      { "text": "known", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'eat'?",
+    "answers": [
+      { "text": "eaten", "correct": false },
+      { "text": "ate", "correct": true },
+      { "text": "eated", "correct": false },
+      { "text": "eating", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'come'?",
+    "answers": [
+      { "text": "comed", "correct": false },
+      { "text": "come", "correct": true },
+      { "text": "coming", "correct": false },
+      { "text": "came", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'drink'?",
+    "answers": [
+      { "text": "drinking", "correct": false },
+      { "text": "drunk", "correct": true },
+      { "text": "drink", "correct": false },
+      { "text": "drank", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'bring'?",
+    "answers": [
+      { "text": "bringed", "correct": false },
+      { "text": "brought", "correct": true },
+      { "text": "bringing", "correct": false },
+      { "text": "brung", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'buy'?",
+    "answers": [
+      { "text": "buyed", "correct": false },
+      { "text": "bought", "correct": true },
+      { "text": "buying", "correct": false },
+      { "text": "buied", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'fall'?",
+    "answers": [
+      { "text": "fell", "correct": true },
+      { "text": "fallen", "correct": false },
+      { "text": "falled", "correct": false },
+      { "text": "falling", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'fly'?",
+    "answers": [
+      { "text": "flew", "correct": true },
+      { "text": "flying", "correct": false },
+      { "text": "flown", "correct": false },
+      { "text": "flyed", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'forget'?",
+    "answers": [
+      { "text": "forgot", "correct": true },
+      { "text": "forgetted", "correct": false },
+      { "text": "forgotten", "correct": false },
+      { "text": "forgetting", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'give'?",
+    "answers": [
+      { "text": "gave", "correct": true },
+      { "text": "given", "correct": false },
+      { "text": "gived", "correct": false },
+      { "text": "giving", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'run'?",
+    "answers": [
+      { "text": "ran", "correct": true },
+      { "text": "running", "correct": false },
+      { "text": "runed", "correct": false },
+      { "text": "runned", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'write'?",
+    "answers": [
+      { "text": "wrote", "correct": true },
+      { "text": "written", "correct": false },
+      { "text": "write", "correct": false },
+      { "text": "writed", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'sit'?",
+    "answers": [
+      { "text": "sitted", "correct": false },
+      { "text": "sat", "correct": true },
+      { "text": "sitten", "correct": false },
+      { "text": "sitting", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the past tense of 'speak'?",
+    "answers": [
+      { "text": "spoke", "correct": true },
+      { "text": "spoken", "correct": false },
+      { "text": "speak", "correct": false },
+      { "text": "speaked", "correct": false }
     ]
   }
 ]
