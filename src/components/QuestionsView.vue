@@ -7,7 +7,7 @@
             </div>
             <div v-if="activeIndex !== questions.length" class="rounded-md flex flex-col gap-2">
                 <span class=" text-green-500 font-bold">Javoblar:</span>
-                <label @click="Check(item?.correct, item?.text)" :for="item?.text" v-for="(item, index) in activeItem?.answers" :key="index"  :class="findMistake && item?.correct ? 'bg-[#ffffff7b] cursor-pointer border-2 border-green-500 hover:border-white ease-linear duration-150 rounded-md py-2 text-left px-3' : findMistake && isCheck === item?.text ? 'bg-[#ffffff7b] cursor-pointer border-2 border-red-500 hover:border-white ease-linear duration-150 rounded-md py-2 text-left px-3' : 'bg-[#ffffff7b] cursor-pointer border-2 border-transparent hover:border-white ease-linear duration-150 rounded-md py-2 text-left px-3'">
+                <label @click="Check(item?.correct, item?.text)" :for="item?.text" v-for="(item, index) in activeItem?.answers" :key="index"  :class="findMistake && item?.correct ? 'bg-[#ffffff7b] cursor-pointer border-2 border-green-500 hover:border-white ease-linear duration-150 rounded-md py-2 text-left px-3 flex items-center' : findMistake && isCheck === item?.text ? 'bg-[#ffffff7b] flex items-center cursor-pointer border-2 border-red-500 hover:border-white ease-linear duration-150 rounded-md py-2 text-left px-3' : 'bg-[#ffffff7b] cursor-pointer border-2 border-transparent hover:border-white ease-linear duration-150 rounded-md py-2 text-left px-3'">
                     <input type="radio" name="js" :id="item?.text" :checked="isCheckedValue === item?.text ? true : false">
                     <span class=" ml-1">{{ item?.text }}</span>
                 </label>

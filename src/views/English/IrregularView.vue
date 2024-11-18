@@ -8,12 +8,12 @@
         class="absolute w-full h-full brightness-[.4] z-[-1] object-cover"
       />
       <h2 class="text-white text-[24px] font-bold mt-[60px]">No'tog'ri fe'llar</h2>
-      <Questions :questions="questions" programming="/english" sections="/sections" />
+      <QuestionsView :questions="questions" programming="/english" sections="/sections" />
     </section>
   </template>
   
 <script setup>
-import Questions from '@/components/Questions.vue';
+import QuestionsView from '@/components/QuestionsView.vue';
 const questions = [
   {
     "question": "Which is the past tense of 'go'?",
