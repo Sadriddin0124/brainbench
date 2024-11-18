@@ -7,7 +7,7 @@
         alt="Home"
         class="absolute w-full h-full brightness-[.4] z-[-1] object-cover"
       />
-      <h2 class="text-white text-[24px] font-bold mt-[60px]">Hozirgi zamon</h2>
+      <h2 class="text-white text-[24px] font-bold mt-[60px]">Kelasi zamon</h2>
       <Questions :questions="questions" programming="/english" sections="/sections" />
     </section>
   </template>

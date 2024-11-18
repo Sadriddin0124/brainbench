@@ -8,6 +8,9 @@ import IrregularView from '@/views/English/IrregularView.vue'
 import PastTenseView from '@/views/English/PastTenseView.vue'
 import PresentView from '@/views/English/PresentView.vue'
 import FutureView from '@/views/English/FutureView.vue'
+import ReactView from '@/views/Coding/ReactView.vue'
+import NextView from '@/views/Coding/NextView.vue'
+import VueView from '@/views/Coding/VueView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -31,6 +34,21 @@ const router = createRouter({
       path: "/javascript",
       name: "Javascript",
       component: JavascriptView
+    },
+    {
+      path: "/react",
+      name: "React",
+      component: ReactView
+    },
+    {
+      path: "/next",
+      name: "Next",
+      component: NextView
+    },
+    {
+      path: "/vue",
+      name: "Vue",
+      component: VueView
     },
     {
       path: "/english",
