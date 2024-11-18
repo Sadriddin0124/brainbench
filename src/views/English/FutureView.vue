@@ -15,8 +15,8 @@
 import QuestionsView from '@/components/QuestionsView.vue';
 const questions = [
     {
-      "question": "'Write' fe'lining kelasi zamon shakli qaysi?",
-      "answers": [
+      question: "'Write' fe'lining kelasi zamon shakli qaysi?",
+      answers: [
         { "text": "will write", "correct": true },
         { "text": "writing", "correct": false },
         { "text": "wrote", "correct": false },
@@ -24,8 +24,8 @@ const questions = [
       ]
     },
     {
-      "question": "Qaysi jumla kelasi zamonda yozilgan?",
-      "answers": [
+      question: "Qaysi jumla kelasi zamonda yozilgan?",
+      answers: [
         { "text": "He will eat an apple.", "correct": true },
         { "text": "He eats an apple.", "correct": false },
         { "text": "He ate an apple.", "correct": false },
@@ -33,8 +33,8 @@ const questions = [
       ]
     },
     {
-      "question": "Kelasi zamon uchun qaysi yordamchi fe'l ishlatiladi?",
-      "answers": [
+      question: "Kelasi zamon uchun qaysi yordamchi fe'l ishlatiladi?",
+      answers: [
         { "text": "will", "correct": true },
         { "text": "did", "correct": false },
         { "text": "does", "correct": false },
@@ -42,8 +42,8 @@ const questions = [
       ]
     },
     {
-      "question": "'I ___ to the market tomorrow' jumlasini kelasi zamonda to'ldiring.",
-      "answers": [
+      question: "'I ___ to the market tomorrow' jumlasini kelasi zamonda to'ldiring.",
+      answers: [
         { "text": "will go", "correct": true },
         { "text": "go", "correct": false },
         { "text": "went", "correct": false },
@@ -51,8 +51,8 @@ const questions = [
       ]
     },
     {
-      "question": "'She will ___ to school tomorrow.' jumlasini to'ldiring.",
-      "answers": [
+      question: "'She will ___ to school tomorrow.' jumlasini to'ldiring.",
+      answers: [
         { "text": "go", "correct": true },
         { "text": "goes", "correct": false },
         { "text": "gone", "correct": false },
@@ -60,8 +60,8 @@ const questions = [
       ]
     },
     {
-      "question": "Kelasi zamonda qaysi jumla to'g'ri tuzilgan?",
-      "answers": [
+      question: "Kelasi zamonda qaysi jumla to'g'ri tuzilgan?",
+      answers: [
         { "text": "He will plays football.", "correct": false },
         { "text": "He will play football.", "correct": true },
         { "text": "He played football.", "correct": false },
@@ -69,8 +69,8 @@ const questions = [
       ]
     },
     {
-      "question": "'Be' fe'lining kelasi zamon shakli qaysi?",
-      "answers": [
+      question: "'Be' fe'lining kelasi zamon shakli qaysi?",
+      answers: [
         { "text": "will be", "correct": true },
         { "text": "is/am/are", "correct": false },
         { "text": "was/were", "correct": false },
@@ -78,8 +78,8 @@ const questions = [
       ]
     },
     {
-      "question": "Kelasi zamonda 'read' fe'lining shakli qanday?",
-      "answers": [
+      question: "Kelasi zamonda 'read' fe'lining shakli qanday?",
+      answers: [
         { "text": "will read", "correct": true },
         { "text": "read", "correct": false },
         { "text": "reads", "correct": false },
@@ -87,8 +87,8 @@ const questions = [
       ]
     },
     {
-      "question": "'Go' fe'lining kelasi zamon shakli qaysi?",
-      "answers": [
+      question: "'Go' fe'lining kelasi zamon shakli qaysi?",
+      answers: [
         { "text": "will go", "correct": true },
         { "text": "goes", "correct": false },
         { "text": "gone", "correct": false },
@@ -96,8 +96,8 @@ const questions = [
       ]
     },
     {
-      "question": "'Run' fe'lining kelasi zamon shakli qaysi?",
-      "answers": [
+      question: "'Run' fe'lining kelasi zamon shakli qaysi?",
+      answers: [
         { "text": "will run", "correct": true },
         { "text": "runs", "correct": false },
         { "text": "ran", "correct": false },
@@ -105,8 +105,8 @@ const questions = [
       ]
     },
     {
-      "question": "'Say' fe'lining kelasi zamon shakli qaysi?",
-      "answers": [
+      question: "'Say' fe'lining kelasi zamon shakli qaysi?",
+      answers: [
         { "text": "will say", "correct": true },
         { "text": "says", "correct": false },
         { "text": "said", "correct": false },
@@ -114,8 +114,8 @@ const questions = [
       ]
     },
     {
-      "question": "'They ___ dinner tomorrow evening.' jumlasini kelasi zamonda to'ldiring.",
-      "answers": [
+      question: "'They ___ dinner tomorrow evening.' jumlasini kelasi zamonda to'ldiring.",
+      answers: [
         { "text": "will cook", "correct": true },
         { "text": "cook", "correct": false },
         { "text": "cooked", "correct": false },
@@ -123,8 +123,8 @@ const questions = [
       ]
     },
     {
-      "question": "'Do' fe'lining kelasi zamon shakli qaysi?",
-      "answers": [
+      question: "'Do' fe'lining kelasi zamon shakli qaysi?",
+      answers: [
         { "text": "will do", "correct": true },
         { "text": "does", "correct": false },
         { "text": "did", "correct": false },
@@ -132,8 +132,8 @@ const questions = [
       ]
     },
     {
-      "question": "Qaysi so'z kelasi zamon uchun ishlatiladi?",
-      "answers": [
+      question: "Qaysi so'z kelasi zamon uchun ishlatiladi?",
+      answers: [
         { "text": "tomorrow", "correct": true },
         { "text": "yesterday", "correct": false },
         { "text": "now", "correct": false },
@@ -141,8 +141,8 @@ const questions = [
       ]
     },
     {
-      "question": "Kelasi zamonda 'eat' fe'lining shakli qanday?",
-      "answers": [
+      question: "Kelasi zamonda 'eat' fe'lining shakli qanday?",
+      answers: [
         { "text": "will eat", "correct": true },
         { "text": "ate", "correct": false },
         { "text": "eats", "correct": false },
@@ -150,8 +150,8 @@ const questions = [
       ]
     },
     {
-      "question": "Qaysi jumla kelasi zamonda yozilgan?",
-      "answers": [
+      question: "Qaysi jumla kelasi zamonda yozilgan?",
+      answers: [
         { "text": "She will study hard.", "correct": true },
         { "text": "She studies hard.", "correct": false },
         { "text": "She studied hard.", "correct": false },
@@ -159,8 +159,8 @@ const questions = [
       ]
     },
     {
-      "question": "Kelasi zamonda so'zlarni to'g'ri ketma-ketlikda joylang: 'I ___ to the park tomorrow.'",
-      "answers": [
+      question: "Kelasi zamonda so'zlarni to'g'ri ketma-ketlikda joylang: 'I ___ to the park tomorrow.'",
+      answers: [
         { "text": "will go", "correct": true },
         { "text": "go", "correct": false },
         { "text": "gone", "correct": false },
@@ -168,8 +168,8 @@ const questions = [
       ]
     },
     {
-      "question": "'Speak' fe'lining kelasi zamon shakli qaysi?",
-      "answers": [
+      question: "'Speak' fe'lining kelasi zamon shakli qaysi?",
+      answers: [
         { "text": "will speak", "correct": true },
         { "text": "spoke", "correct": false },
         { "text": "speaks", "correct": false },
@@ -177,8 +177,8 @@ const questions = [
       ]
     },
     {
-      "question": "'Will' yordamchi fe'li bilan qaysi jumla to'g'ri tuzilgan?",
-      "answers": [
+      question: "'Will' yordamchi fe'li bilan qaysi jumla to'g'ri tuzilgan?",
+      answers: [
         { "text": "He will write a book.", "correct": true },
         { "text": "He write a book.", "correct": false },
         { "text": "He wrote a book.", "correct": false },

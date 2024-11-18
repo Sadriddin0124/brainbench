@@ -17,8 +17,8 @@
   
   const questions = [
     {
-      "question": "React nima?",
-      "answers": [
+      question: "React nima?",
+      answers: [
         { "text": "Ma'lumotlar bazasini boshqarish tizimi", "correct": false },
         { "text": "Foydalanuvchi interfeyslarini yaratish uchun JavaScript kutubxonasi", "correct": true },
         { "text": "CSS ramkasi", "correct": false },
@@ -26,8 +26,8 @@
       ]
     },
     {
-      "question": "React komponentlari qanday turlarga bo'linadi?",
-      "answers": [
+      question: "React komponentlari qanday turlarga bo'linadi?",
+      answers: [
         { "text": "Funksional va Klass", "correct": true },
         { "text": "Statik va Dinamik", "correct": false },
         { "text": "Synchronous va Asynchronous", "correct": false },
@@ -35,8 +35,8 @@
       ]
     },
     {
-      "question": "React komponentining asosiy vazifasi nima?",
-      "answers": [
+      question: "React komponentining asosiy vazifasi nima?",
+      answers: [
         { "text": "Ma'lumotlarni saqlash", "correct": false },
         { "text": "UI elementlarini yaratish", "correct": true },
         { "text": "Backend serverini boshqarish", "correct": false },
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "question": "JSX nima?",
-      "answers": [
+      question: "JSX nima?",
+      answers: [
         { "text": "JavaScriptning kengaytirilgan sintaksisi", "correct": true },
         { "text": "CSS uchun formatlash vositasi", "correct": false },
         { "text": "Server kodlash usuli", "correct": false },
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "question": "React komponentida state qanday o'zgartiriladi?",
-      "answers": [
+      question: "React komponentida state qanday o'zgartiriladi?",
+      answers: [
         { "text": "State obyektini to'g'ridan-to'g'ri o'zgartirish orqali", "correct": false },
         { "text": "setState() metodidan foydalanish orqali", "correct": true },
         { "text": "Props orqali", "correct": false },
@@ -62,8 +62,8 @@
       ]
     },
     {
-      "question": "Props nima uchun ishlatiladi?",
-      "answers": [
+      question: "Props nima uchun ishlatiladi?",
+      answers: [
         { "text": "State o'zgartirish uchun", "correct": false },
         { "text": "Komponentga ma'lumot uzatish uchun", "correct": true },
         { "text": "Komponentni tahrirlash uchun", "correct": false },
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "question": "Lifecycle metodlari qaysi turdagi komponentlarga tegishli?",
-      "answers": [
+      question: "Lifecycle metodlari qaysi turdagi komponentlarga tegishli?",
+      answers: [
         { "text": "Funksional komponentlar", "correct": false },
         { "text": "Klass komponentlar", "correct": true },
         { "text": "Har ikkisi uchun", "correct": false },
@@ -80,8 +80,8 @@
       ]
     },
     {
-      "question": "useEffect nima uchun ishlatiladi?",
-      "answers": [
+      question: "useEffect nima uchun ishlatiladi?",
+      answers: [
         { "text": "Yon effektlarni boshqarish uchun React Hook", "correct": true },
         { "text": "State yangilash uchun metod", "correct": false },
         { "text": "Komponentlarni optimallashtirish vositasi", "correct": false },
@@ -89,8 +89,8 @@
       ]
     },
     {
-      "question": "Reactda virtual DOM qanday ishlaydi?",
-      "answers": [
+      question: "Reactda virtual DOM qanday ishlaydi?",
+      answers: [
         { "text": "Real DOMni to'g'ridan-to'g'ri yangilaydi", "correct": false },
         { "text": "DOMdagi faqat o'zgargan qismini yangilaydi", "correct": true },
         { "text": "Butun DOMni almashtiradi", "correct": false },
@@ -98,8 +98,8 @@
       ]
     },
     {
-      "question": "React Router nima uchun ishlatiladi?",
-      "answers": [
+      question: "React Router nima uchun ishlatiladi?",
+      answers: [
         { "text": "Ma'lumotlarni boshqarish uchun", "correct": false },
         { "text": "Ko'rinishlar orasida navigatsiya qilish uchun", "correct": true },
         { "text": "Komponentlarni stilizatsiya qilish uchun", "correct": false },
@@ -107,8 +107,8 @@
       ]
     },
     {
-      "question": "Reactda 'key' nima uchun kerak?",
-      "answers": [
+      question: "Reactda 'key' nima uchun kerak?",
+      answers: [
         { "text": "Ro'yxatlarni render qilishni optimallashtirish uchun", "correct": true },
         { "text": "Komponent xususiyatlarini aniqlash uchun", "correct": false },
         { "text": "Komponentlarni stilizatsiya qilish uchun", "correct": false },
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "question": "useState nima?",
-      "answers": [
+      question: "useState nima?",
+      answers: [
         { "text": "Funksional komponentlarda state boshqarish uchun React Hook", "correct": true },
         { "text": "Lifecycle metod", "correct": false },
         { "text": "Stilizatsiya qilish vositasi", "correct": false },
@@ -125,8 +125,8 @@
       ]
     },
     {
-      "question": "Context API nima uchun ishlatiladi?",
-      "answers": [
+      question: "Context API nima uchun ishlatiladi?",
+      answers: [
         { "text": "Global state boshqarish uchun", "correct": true },
         { "text": "CSS stilini aniqlash uchun", "correct": false },
         { "text": "API'lar bilan ulanish uchun", "correct": false },
@@ -134,8 +134,8 @@
       ]
     },
     {
-      "question": "Reactda fragment nima?",
-      "answers": [
+      question: "Reactda fragment nima?",
+      answers: [
         { "text": "Elementlar uchun yengil qopqoq", "correct": true },
         { "text": "Ma'lumotlar tuzilmasi", "correct": false },
         { "text": "State boshqarish vositasi", "correct": false },
@@ -143,8 +143,8 @@
       ]
     },
     {
-      "question": "React StrictMode nima uchun ishlatiladi?",
-      "answers": [
+      question: "React StrictMode nima uchun ishlatiladi?",
+      answers: [
         { "text": "Dasturdagi potentsial muammolarni aniqlash uchun", "correct": true },
         { "text": "Komponentlarni stilizatsiya qilish uchun", "correct": false },
         { "text": "Dastur state'ini boshqarish uchun", "correct": false },
@@ -152,8 +152,8 @@
       ]
     },
     {
-      "question": "React memo nima uchun ishlatiladi?",
-      "answers": [
+      question: "React memo nima uchun ishlatiladi?",
+      answers: [
         { "text": "Keraksiz qayta renderlarni oldini olish uchun", "correct": true },
         { "text": "DOMni yangilash uchun", "correct": false },
         { "text": "Ma'lumotlarni olish uchun", "correct": false },
@@ -161,8 +161,8 @@
       ]
     },
     {
-      "question": "useRef nima uchun ishlatiladi?",
-      "answers": [
+      question: "useRef nima uchun ishlatiladi?",
+      answers: [
         { "text": "DOM elementlari bilan ishlash uchun", "correct": true },
         { "text": "State boshqarish uchun", "correct": false },
         { "text": "Yon effektlarni boshqarish uchun", "correct": false },
@@ -170,8 +170,8 @@
       ]
     },
     {
-      "question": "Reactda lazy loading nima uchun ishlatiladi?",
-      "answers": [
+      question: "Reactda lazy loading nima uchun ishlatiladi?",
+      answers: [
         { "text": "Komponentlarni faqat kerak bo'lganda yuklash uchun", "correct": true },
         { "text": "CSS'ni optimallashtirish uchun", "correct": false },
         { "text": "API'larni boshqarish uchun", "correct": false },
@@ -179,8 +179,8 @@
       ]
     },
     {
-      "question": "Reactda prop drilling muammosini qanday hal qilish mumkin?",
-      "answers": [
+      question: "Reactda prop drilling muammosini qanday hal qilish mumkin?",
+      answers: [
         { "text": "Context API'dan foydalanish", "correct": true },
         { "text": "State'dan foydalanish", "correct": false },
         { "text": "Lifecycle metodlardan foydalanish", "correct": false },
