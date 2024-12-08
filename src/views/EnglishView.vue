@@ -15,19 +15,19 @@
 const sections = [
     {
         title: "Noto'g'ri fe'llar",
-        path: "/irregular",
+        path: "/quiz?id=irregular",
     },
     {
         title: "O'tgan Zamon",
-        path: "/past",
+        path: "/quiz?id=past-tense",
     },
     {
         title: "Hozirgi Zamon",
-        path: "/present",
+        path: "/quiz?id=present",
     },
     {
         title: "Kelasi Zamon",
-        path: "/future",
+        path: "/quiz?id=future",
     },
 ]
 </script>

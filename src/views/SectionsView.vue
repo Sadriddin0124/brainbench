@@ -13,7 +13,7 @@
 
 <script setup>
 import Section1 from "@/assets/sections/section1.jpg"
-import Section2 from "@/assets/sections/section2.jpg"
+// import Section2 from "@/assets/sections/section2.jpg"
 import Section3 from "@/assets/sections/section3.png"
 const sections = [
     {
@@ -21,11 +21,11 @@ const sections = [
         path: "/programming",
         icon: Section1
     },
-    {
-        title: "Rus tili",
-        path: "/russian",
-        icon: Section2
-    },
+    // {
+    //     title: "Rus tili",
+    //     path: "/russian",
+    //     icon: Section2
+    // },
     {
         title: "Ingliz tili",
         path: "/english",

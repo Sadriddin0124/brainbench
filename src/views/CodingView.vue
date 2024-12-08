@@ -19,22 +19,22 @@ import Vue from "@/assets/sections/vue.webp"
 const sections = [
     {
         title: "Javascript",
-        path: "/javascript",
+        path: "/quiz?id=js",
         icon: JS
     },
     {
         title: "React",
-        path: "/react",
+        path: "/quiz?id=react",
         icon: React
     },
     {
         title: "Next",
-        path: "/next",
+        path: "/quiz?id=next",
         icon: Next
     },
     {
         title: "Vue 3",
-        path: "/vue",
+        path: "/quiz?id=vue",
         icon: Vue
     },
 ]
