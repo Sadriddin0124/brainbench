@@ -8,7 +8,7 @@
         class="absolute w-full h-full brightness-[.4] z-[-1] object-cover"
       />
       <h2 class="text-white text-[24px] font-bold mt-[60px]">{{ questions?.title }}</h2>
-      <QuestionsView :questions="questions.value" programming="/english" sections="/sections" />
+      <QuestionsView :questions="questions.value" programming="/" sections="/sections" />
     </section>
   </template>
   

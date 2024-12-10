@@ -1,24 +1,29 @@
 <template>
   <div class="max-w-[400px] w-full p-5 bg-[#ffffff53] rounded-md flex flex-col gap-3">
-    <span v-if="activeIndex !== questions.length" class="text-white self-end"
-      >{{ activeIndex + 1 }}-{{ questions.length }}</span
-    >
+    <span v-if="activeIndex !== questions.length" class="text-white self-end">
+      {{ activeIndex + 1 }}-{{ questions.length }}
+    </span>
 
-    <div
-      v-if="activeIndex !== questions.length"
-      class="bg-[#ffffff7b] rounded-md p-4 flex flex-col"
-    >
-      <span class="font-bold text-green-600">Savol:</span>
-      <p class="text-white">{{ activeItem?.question }}</p>
-    </div>
+    <!-- Animate question switch -->
+    <transition name="fade">
+      <div
+        v-if="activeIndex !== questions.length"
+        key="question-{{ activeIndex }}"
+        class="bg-[#ffffff7b] rounded-md p-4 flex flex-col"
+      >
+        <span class="font-bold text-green-600">Savol:</span>
+        <p class="text-white">{{ activeItem?.question }}</p>
+      </div>
+    </transition>
 
-    <div v-if="activeIndex !== questions.length" class="rounded-md flex flex-col gap-2">
-      <span class="text-green-500 font-bold">Javoblar:</span>
+    <transition-group name="answer" tag="div" class="rounded-md flex flex-col gap-2">
+      <span v-if="activeIndex !== questions.length" class="text-green-500 font-bold">
+        Javoblar:
+      </span>
       <label
-        @click="Check(item?.correct, item?.text)"
-        :for="item?.text"
         v-for="(item, index) in activeItem?.answers"
         :key="index"
+        @click="Check(item?.correct, item?.text)"
         :class="[
           findMistake && item?.correct
             ? 'bg-[#ffffff7b] cursor-pointer border-2 border-green-500 hover:border-white ease-linear duration-150 rounded-md py-2 text-left px-3 flex items-center'
@@ -36,15 +41,16 @@
         <span class="ml-1">{{ item?.text }}</span>
       </label>
       <button
+        v-if="activeIndex !== questions.length"
         @click="Next"
         class="bg-[#ffffff7b] cursor-pointer border-2 bg-green-500 border-green-500 text-center text-white hover:border-white ease-linear duration-150 rounded-md py-2 px-3"
       >
         Next
       </button>
-    </div>
+    </transition-group>
 
-    <div v-else class="flex flex-col items-center gap-4">
-      <!-- Mistake and Attempt counters -->
+    <!-- End message -->
+    <div v-if="activeIndex === questions.length" class="flex flex-col items-center gap-4">
       <h4 class="text-white text-[20px] font-[500]">Savollar tugadi</h4>
       <div class="flex gap-2">
         <router-link
@@ -69,6 +75,7 @@
     </div>
   </div>
 </template>
+
 
 <script setup>
 import { computed, onMounted, ref } from 'vue'
@@ -117,7 +124,7 @@ const Next = () => {
   } else {
     findMistake.value = true
     playVibration()
-    playSound()
+    // playSound()
   }
 }
 
@@ -153,10 +160,10 @@ const playVibration = () => {
 }
 
 // Play sound for wrong answer
-const playSound = () => {
-  const sound = new Audio('/vibrate.mp3') // Path to your sound file
-  sound.play()
-}
+// const playSound = () => {
+//   const sound = new Audio('/vibrate.mp3') // Path to your sound file
+//   sound.play()
+// }
 
 // Load index from sessionStorage on mount
 onMounted(() => {
