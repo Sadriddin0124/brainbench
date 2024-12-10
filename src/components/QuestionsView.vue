@@ -91,6 +91,8 @@ const CheckItem = ref(false)
 const isCheck = computed(() => CheckItem.value)
 const CheckedValue = ref('')
 const isCheckedValue = computed(() => CheckedValue.value)
+const random = Math.floor(Math.random() * 4);
+console.log(random);
 
 // Mistake and attempt counters
 const totalAttempts = ref(0) // Tracks total attempts

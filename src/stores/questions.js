@@ -7,7 +7,7 @@ import { irregular } from "@/questions/english/irregular"
 import { pastTense } from "@/questions/english/past"
 import { present } from "@/questions/english/present"
 
-const questions = [
+const all_questions = [
     {
         key: "irregular",
         value: irregular,
@@ -49,8 +49,16 @@ const questions = [
         title: "Vue JS"
     },
 ]
-
+function shuffleAnswers(questions) {
+  return questions.map((q) => {
+    const shuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
+    return { ...q, answers: shuffledAnswers };
+  });
+}
 export const renderQuestions = (theme) => {
-    const result = questions.find(item=> item?.key === theme)
-    return result
+    const result = all_questions.find(item=> item?.key === theme)
+    const questions = shuffleAnswers(result?.value)
+    console.log(questions);
+    const obj = {value: questions, title: result?.title}
+    return obj
 }
