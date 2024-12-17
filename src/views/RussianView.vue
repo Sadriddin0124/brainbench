@@ -14,20 +14,8 @@
 <script setup>
 const sections = [
     {
-        title: "Noto'g'ri fe'llar",
-        path: "/irregular",
-    },
-    {
-        title: "O'tgan Zamon",
-        path: "/past",
-    },
-    {
-        title: "Hozirgi Zamon",
-        path: "/present",
-    },
-    {
-        title: "Kelasi Zamon",
-        path: "/future",
+        title: "Rus tilidan lug'atlar",
+        path: "/quiz?id=vocabularies",
     },
 ]
 </script>

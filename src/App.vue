@@ -3,7 +3,7 @@
     <AuthComponent v-if="!store.name"/>
     <NavbarComponent v-if="store.name"/>
     <router-view></router-view>
-  </div>
+</div>
 </template>
 
 <script setup>

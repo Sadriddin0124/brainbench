@@ -29,6 +29,10 @@ const sections = [
         title: "Kelasi Zamon",
         path: "/quiz?id=future",
     },
+    {
+        title: "Modal fe'llar",
+        path: "/quiz?id=modal",
+    },
 ]
 </script>
 
